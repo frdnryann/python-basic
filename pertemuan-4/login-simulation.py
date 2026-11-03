@@ -49,9 +49,9 @@ def greetings(name):
 
     if now > 5 and now < 11:
         return f"Selamat pagi! {name}!"
-    elif now > 11 and now < 15:
+    elif now >= 11 and now < 15:
         return f"Selamat siang {name}!"
-    elif now > 15 and now < 18:
+    elif now >= 15 and now <= 18:
         return f"Selamat sore {name}!"
 
     return f"Tidur nyenyak, {name}!"
